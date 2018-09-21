@@ -25,5 +25,14 @@ document.addEventListener("DOMContentLoaded", () => {
     ulList.appendChild(new_task_li)
     new_task_li.appendChild(new_button)
     event.target.reset()
+
+    // new_button.addEventListener("click", (e) => {
+    //   let items_to_remove = document.getElementsByClassName(new_button.className)
+    //   let new_array = Array.from(items_to_remove)
+    //   new_array.forEach(function(item){
+    //     item.remove()
+    //   })
+    // })
+    // debugger;
   })
 }); //end all
